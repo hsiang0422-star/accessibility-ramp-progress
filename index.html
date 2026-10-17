@@ -13,7 +13,10 @@
     nav{display:flex;flex-wrap:wrap;gap:.7rem 1.25rem;margin-top:1.35rem}nav a{color:white}main{max-width:1120px;margin:1.5rem auto;padding:0 1rem}section{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:clamp(1.1rem,3vw,2rem);margin:1.1rem 0;box-shadow:0 5px 20px #1832470a}h2{font-size:1.55rem;line-height:1.35;margin:.1rem 0 1rem;color:#174f68}h3{font-size:1.12rem;line-height:1.4;margin:0 0 .45rem}.muted{color:var(--muted)}.notice{border-left:5px solid var(--amber);background:#fff8e9;padding:.8rem 1rem;border-radius:6px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:.8rem}.card{padding:1rem;border:1px solid var(--line);border-radius:12px;background:#fbfdfe}.card strong{display:block;font-size:1.55rem;color:var(--teal);line-height:1.25}.tag{display:inline-block;background:#e5f3f2;color:#075d58;border-radius:99px;padding:.1rem .65rem;font-size:.88rem;font-weight:700}.bar{height:14px;border-radius:99px;background:#e5edf0;overflow:hidden}.bar span{display:block;height:100%;width:28%;background:var(--teal)}.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:1rem}.timeline{border-left:3px solid #b8d7d8;margin:.7rem 0 0 .4rem;padding-left:1.2rem}.event{position:relative;padding:0 0 1.2rem}.event:before{content:"";position:absolute;width:11px;height:11px;border-radius:50%;background:var(--teal);left:-1.63rem;top:.45rem}.date{font-weight:800;color:#176a72}table{width:100%;border-collapse:collapse;margin:.7rem 0}th,td{text-align:left;vertical-align:top;padding:.65rem .7rem;border-bottom:1px solid var(--line)}th{background:#edf5f6}ul{padding-left:1.35rem}.actions{display:flex;flex-wrap:wrap;gap:.7rem}.button{display:inline-block;background:var(--blue);color:white;padding:.55rem .9rem;border-radius:8px;text-decoration:none;font-weight:700}.button.secondary{background:#e7f1f4;color:var(--blue)}footer{max-width:1120px;margin:auto;padding:1rem 1.2rem 2rem;color:var(--muted);font-size:.92rem}
     @media(max-width:620px){body{font-size:16px}header{padding-top:2.3rem}section{border-radius:12px}table{display:block;overflow-x:auto;white-space:normal}th,td{min-width:115px}}
     @media print{body{background:white;font-size:11pt}header{background:white;color:var(--ink);padding:1rem 0;border-bottom:2px solid var(--blue)}header p{color:var(--muted)}nav,.actions{display:none}main{padding:0;margin:0;max-width:none}section{box-shadow:none;break-inside:avoid;margin:.7rem 0;padding:1rem}a{color:var(--ink)}footer{padding:1rem 0}}
-  </style>
+  
+    .meeting-meta{width:100%;min-width:0;table-layout:fixed}.meeting-meta th:first-child{width:180px;white-space:nowrap}.meeting-meta td{overflow-wrap:anywhere;word-break:normal}
+    @media(max-width:620px){.meeting-meta,.meeting-meta tbody,.meeting-meta tr{display:block;width:100%}.meeting-meta tr{border-bottom:1px solid var(--line);padding:.35rem 0}.meeting-meta th,.meeting-meta td{display:block;width:100%;min-width:0;padding:.3rem .65rem;border:0;white-space:normal}.meeting-meta th:first-child{white-space:normal}.meeting-meta td{padding-top:0}}
+</style>
 </head>
 <body>
   <a class="skip" href="#main">跳至主要內容</a>
@@ -99,7 +102,7 @@
       <p class="muted">國立臺南特殊教育學校｜Google Meet 線上會議｜會議時間約 10:00 至 10:24</p>
       <div class="notice"><strong>會議結論：</strong>本次尚未核准將原鋼構方案變更為 RC 鋼筋混凝土方案。學校須先完成細部設計、預算、許可程序及工期可行性評估，再提下次 10/21 訪視會議審議。</div>
       <h3 style="margin-top:1.2rem">會議基本資料</h3>
-      <table><tbody>
+      <table class="meeting-meta"><tbody>
         <tr><th>會議日期</th><td>115年9月24日（2026年9月24日）</td></tr>
         <tr><th>會議方式</th><td>線上會議</td></tr>
         <tr><th>主席</th><td>教育部李佳昕專案管理師</td></tr>
